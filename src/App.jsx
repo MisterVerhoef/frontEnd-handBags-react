@@ -6,6 +6,9 @@ import stylishBag from  "./assets/bag_2.png"
 import simpleBag from  "./assets/bag_3.png"
 import trendyBag from  "./assets/bag_4.png"
 import Product from "./Componenten/product/Product.jsx";
+import Tile from "./Componenten/tile/Tile.jsx";
+import ourBrand from "./assets/brand.png";
+import ourStory from "./assets/our_story.png";
 
 
 function App() {
@@ -62,7 +65,21 @@ function App() {
               />
           </main>
               <footer>
-                  <p>© 2021 Handbags & Purses</p>
+                <Tile
+                sectionTitle="Our Brand"
+                sectionText="potenti cubilia iusto urna quem eos adipisci natum adhuc laoreet faucibus novum utamur melius deseruisse mollis falli laudem maluisset electram vel legimus tractatos ac ius"
+                />
+                  <Tile
+                        tileImg={ourBrand}
+                  />
+                  <Tile
+                    tileImg={ourStory}
+                  />
+                  <Tile
+                  sectionTitle="Our Story"
+                  sectionText="potenti cubilia iusto urna quem eos adipisci natum adhuc laoreet faucibus novum utamur melius deseruisse mollis falli laudem maluisset electram vel legimus tractatos ac ius"
+
+                  />
               </footer>
           </>
       </>
