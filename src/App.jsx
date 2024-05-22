@@ -77,8 +77,7 @@ function App() {
                   />
                   <Tile
                   sectionTitle="Our Story"
-                  sectionText="potenti cubilia iusto urna quem eos adipisci natum adhuc laoreet faucibus novum utamur melius deseruisse mollis falli laudem maluisset electram vel legimus tractatos ac ius"
-
+                  sectionText="reprehendunt enim eam gravida mediocrem justo magna cubilia per cras eliore constituto docendi solum invidunt sit litora mediocrem fabellas himenaeos laudem rhoncus sale latine porta faucibus mus contentiones tibique doming vehicula quas singulis enim ullamcorper appetere ridens postulant mollis assueverit"
                   />
               </footer>
           </>

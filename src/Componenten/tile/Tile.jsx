@@ -13,6 +13,7 @@ function Tile({tileImg, sectionTitle, sectionText}) {
             <section>
                 <h2>{sectionTitle}</h2>
                 <p>{sectionText}</p>
+                <p>{sectionText}</p>
             </section>
         );
     }
