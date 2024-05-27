@@ -1,23 +1,13 @@
-function Tile({tileImg, sectionTitle, sectionText}) {
+function Tile(props) {
 
-    if (tileImg) {
+
         return (
-            <section>
-                <img
-                src={tileImg}
-                 alt='Brand Story'/>
-            </section>
-        );
-    } else {
-        return (
-            <section>
-                <h2>{sectionTitle}</h2>
-                <p>{sectionText}</p>
-                <p>{sectionText}</p>
+            <section >
+                <img src={props.tileImg} alt=""/>
+                {props.children}
             </section>
         );
     }
 
-}
 
 export default Tile;
